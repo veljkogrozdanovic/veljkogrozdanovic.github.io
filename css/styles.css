@@ -1,0 +1,159 @@
+body {
+	width: 1000px;
+	margin:0 auto;
+	font-family: Arial, Times, serif;
+}
+.logo {
+	width: 82px;
+	height: 82px;
+	float: left;
+}
+
+.logo img {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+
+.text {
+	width: 800px;
+	float: left;
+}
+h1 {
+	text-align: center;
+	font-size: 33px;
+	color: white;
+
+}
+
+header {
+	width: 1000px;
+	height: 82px;
+	position: fixed;
+	top: 0;
+	background: #d92e1f;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.navigacija {
+	position: fixed;
+	top: 82px;
+	width: 1000px;
+	background: lightgray;
+}
+.navigacija li:hover {
+	background: #778899;
+}
+.navigacija #first_ul {
+	padding-left: 20px;
+}
+.navigacija #first_ul>li{
+	display: inline-block;
+	float: left;
+}
+.navigacija a {
+	text-decoration: none;
+	color: white;
+	padding: 12px 10px;
+	display: block;
+	cursor: pointer;
+
+}
+.navigacija #second_ul {
+	display: none;
+	width: 200px;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	background: lightgray;
+}
+.navigacija #first_ul .dropdown {
+	position: relative;
+}
+
+.navigacija #first_ul .dropdown:hover #second_ul {
+	display: block;
+}
+
+.navigacija #second_ul a {
+	padding: 6px 10px;
+	border-bottom: 1px solid black;
+}
+.main {
+	margin-top: 124px;
+	//background-color: #e6f2ff;
+}
+.content {
+	padding: 20px;
+	margin-left: 4px;
+	//background-color: #e6f2ff;
+	text-align: justify;
+	line-height: 120%;
+	width: 800px;
+	box-sizing: border-box;
+	
+}
+.content img:hover {
+	opacity: .5;
+}
+.img_right {
+	float: right;
+	margin-left: 15px;
+}
+.img_left {
+	float: left;
+	margin-right: 15px;
+}
+.content div{
+	min-height: 200px;
+}
+.olimpjakos {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+aside {
+	padding-top: 25px;
+	width: 200px;
+	//background: #e6f2ff;
+	float: right;
+}
+aside h3 {
+	text-align: center;
+}
+aside a {
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	margin: 20px 0 0 16px;
+}
+
+footer {
+	height: 45px;
+	width: 1000px;
+	background: darkgray;
+	position: sticky;
+	bottom: 0;
+	padding: 0;
+}
+footer a {
+	position: relative;
+	top: 14px;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	padding: 0 20px;
+}
+.footerfudbal {
+	float: left;
+}
+.footerkosarka {
+	float: right;
+}
