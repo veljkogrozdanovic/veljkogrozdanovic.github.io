@@ -33,6 +33,7 @@ header {
 	position: fixed;
 	top: 0;
 	background: #d92e1f;
+	z-index: 1;
 }
 
 
@@ -47,6 +48,7 @@ ul {
 	top: 82px;
 	width: 1000px;
 	background: lightgray;
+	z-index: 1;
 }
 .navigacija li:hover {
 	background: #778899;
